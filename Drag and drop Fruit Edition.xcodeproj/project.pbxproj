@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3BAF911E2B58BC0096682E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BAF901E2B58BC0096682E /* AppDelegate.swift */; };
+		AA3BAF931E2B58BC0096682E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA3BAF921E2B58BC0096682E /* GameScene.sks */; };
+		AA3BAF951E2B58BC0096682E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA3BAF941E2B58BC0096682E /* Actions.sks */; };
+		AA3BAF971E2B58BC0096682E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BAF961E2B58BC0096682E /* GameScene.swift */; };
+		AA3BAF991E2B58BC0096682E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BAF981E2B58BC0096682E /* GameViewController.swift */; };
+		AA3BAF9C1E2B58BC0096682E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3BAF9A1E2B58BC0096682E /* Main.storyboard */; };
+		AA3BAF9E1E2B58BC0096682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3BAF9D1E2B58BC0096682E /* Assets.xcassets */; };
+		AA3BAFA11E2B58BC0096682E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3BAF9F1E2B58BC0096682E /* LaunchScreen.storyboard */; };
+		AA9E7F771E2DE93F00109654 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F751E2DE93F00109654 /* correct.mp3 */; };
+		AA9E7F781E2DE93F00109654 /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F761E2DE93F00109654 /* incorrect.mp3 */; };
+		AA9E7F7A1E2DED2F00109654 /* correctParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F791E2DED2F00109654 /* correctParticle.sks */; };
+		AA9E7F7C1E2DEDB100109654 /* incorrectParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA9E7F7B1E2DEDB100109654 /* incorrectParticle.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA3BAF8D1E2B58BC0096682E /* Drag and drop Fruit Edition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drag and drop Fruit Edition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3BAF901E2B58BC0096682E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA3BAF921E2B58BC0096682E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AA3BAF941E2B58BC0096682E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AA3BAF961E2B58BC0096682E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AA3BAF981E2B58BC0096682E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AA3BAF9B1E2B58BC0096682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA3BAF9D1E2B58BC0096682E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3BAFA01E2B58BC0096682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3BAFA21E2B58BC0096682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9E7F751E2DE93F00109654 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		AA9E7F761E2DE93F00109654 /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
+		AA9E7F791E2DED2F00109654 /* correctParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = correctParticle.sks; sourceTree = "<group>"; };
+		AA9E7F7B1E2DEDB100109654 /* incorrectParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = incorrectParticle.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3BAF8A1E2B58BB0096682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3BAF841E2B58BB0096682E = {
+			isa = PBXGroup;
+			children = (
+				AA3BAF8F1E2B58BC0096682E /* Drag and drop Fruit Edition */,
+				AA3BAF8E1E2B58BC0096682E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3BAF8E1E2B58BC0096682E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BAF8D1E2B58BC0096682E /* Drag and drop Fruit Edition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3BAF8F1E2B58BC0096682E /* Drag and drop Fruit Edition */ = {
+			isa = PBXGroup;
+			children = (
+				AA9E7F751E2DE93F00109654 /* correct.mp3 */,
+				AA9E7F761E2DE93F00109654 /* incorrect.mp3 */,
+				AA9E7F791E2DED2F00109654 /* correctParticle.sks */,
+				AA9E7F7B1E2DEDB100109654 /* incorrectParticle.sks */,
+				AA3BAF901E2B58BC0096682E /* AppDelegate.swift */,
+				AA3BAF921E2B58BC0096682E /* GameScene.sks */,
+				AA3BAF941E2B58BC0096682E /* Actions.sks */,
+				AA3BAF961E2B58BC0096682E /* GameScene.swift */,
+				AA3BAF981E2B58BC0096682E /* GameViewController.swift */,
+				AA3BAF9A1E2B58BC0096682E /* Main.storyboard */,
+				AA3BAF9D1E2B58BC0096682E /* Assets.xcassets */,
+				AA3BAF9F1E2B58BC0096682E /* LaunchScreen.storyboard */,
+				AA3BAFA21E2B58BC0096682E /* Info.plist */,
+			);
+			path = "Drag and drop Fruit Edition";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3BAF8C1E2B58BB0096682E /* Drag and drop Fruit Edition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3BAFA51E2B58BC0096682E /* Build configuration list for PBXNativeTarget "Drag and drop Fruit Edition" */;
+			buildPhases = (
+				AA3BAF891E2B58BB0096682E /* Sources */,
+				AA3BAF8A1E2B58BB0096682E /* Frameworks */,
+				AA3BAF8B1E2B58BB0096682E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drag and drop Fruit Edition";
+			productName = "Drag and drop Fruit Edition";
+			productReference = AA3BAF8D1E2B58BC0096682E /* Drag and drop Fruit Edition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3BAF851E2B58BB0096682E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yuma Soerianto";
+				TargetAttributes = {
+					AA3BAF8C1E2B58BB0096682E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AA3BAF881E2B58BB0096682E /* Build configuration list for PBXProject "Drag and drop Fruit Edition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3BAF841E2B58BB0096682E;
+			productRefGroup = AA3BAF8E1E2B58BC0096682E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3BAF8C1E2B58BB0096682E /* Drag and drop Fruit Edition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3BAF8B1E2B58BB0096682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9E7F7A1E2DED2F00109654 /* correctParticle.sks in Resources */,
+				AA3BAF9C1E2B58BC0096682E /* Main.storyboard in Resources */,
+				AA3BAF931E2B58BC0096682E /* GameScene.sks in Resources */,
+				AA9E7F7C1E2DEDB100109654 /* incorrectParticle.sks in Resources */,
+				AA3BAF9E1E2B58BC0096682E /* Assets.xcassets in Resources */,
+				AA3BAFA11E2B58BC0096682E /* LaunchScreen.storyboard in Resources */,
+				AA9E7F781E2DE93F00109654 /* incorrect.mp3 in Resources */,
+				AA3BAF951E2B58BC0096682E /* Actions.sks in Resources */,
+				AA9E7F771E2DE93F00109654 /* correct.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3BAF891E2B58BB0096682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3BAF971E2B58BC0096682E /* GameScene.swift in Sources */,
+				AA3BAF991E2B58BC0096682E /* GameViewController.swift in Sources */,
+				AA3BAF911E2B58BC0096682E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA3BAF9A1E2B58BC0096682E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3BAF9B1E2B58BC0096682E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA3BAF9F1E2B58BC0096682E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3BAFA01E2B58BC0096682E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3BAFA31E2B58BC0096682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA3BAFA41E2B58BC0096682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3BAFA61E2B58BC0096682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Drag and drop Fruit Edition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebyyuma.Drag-and-drop-Fruit-Edition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA3BAFA71E2B58BC0096682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Drag and drop Fruit Edition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebyyuma.Drag-and-drop-Fruit-Edition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3BAF881E2B58BB0096682E /* Build configuration list for PBXProject "Drag and drop Fruit Edition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3BAFA31E2B58BC0096682E /* Debug */,
+				AA3BAFA41E2B58BC0096682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3BAFA51E2B58BC0096682E /* Build configuration list for PBXNativeTarget "Drag and drop Fruit Edition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3BAFA61E2B58BC0096682E /* Debug */,
+				AA3BAFA71E2B58BC0096682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3BAF851E2B58BB0096682E /* Project object */;
+}
